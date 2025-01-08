@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFFDF0;
+}
+#name { 
+    display: inline;
+    margin-right: auto;
+    font-size:40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#content { 
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 640px;
+    align-items: center;
+    
+    
+}
+
+img { 
+    height: 100%;
+    width: 100%
+}
+
+nav { 
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#slogan {
+text-align: center;
+font-size: 24px;
+padding-bottom: 10px;
+}
+button { 
+    border-radius: 20px;
+    height: 100%;
+}
+
+#menu-table { 
+    border: 1px solid black;
+    width: 540px;
+    margin-top: 20px;
+
+}
+
+.price { 
+    text-align: right;
+}
+
+#menu-title { 
+    font-size: 60px;
+    border-bottom: 2px solid black;
+}
+.item { width:80%;}
+
+.one-liner {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#logo { 
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+}
+
+p { 
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+#slogan { 
+    font-style: italic;
+}
+
+#contact-header { 
+    letter-spacing: 0.8rem;
+    font-size: 4rem;
+}
+.contact-card { 
+    font-size: 32px;
+    letter-spacing: 0.05rem;
+    border: 2px solid #74A366;
+    padding: 10px;
+    line-height: 4.5rem;
+    text-align: center;
+}
