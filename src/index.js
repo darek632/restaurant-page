@@ -13,9 +13,17 @@ let mainDiv = document.getElementById("content");
 
 header.addEventListener( "click", (event) => { 
     let target = event.target;
+
+
+    if(!target.matches("button")) {
+        return;
+    }
+
+    
     mainDiv.textContent = '';
 
     let buttons = document.querySelectorAll("button");
+
 
     buttons.forEach(button => { 
         button.style.background = '';
