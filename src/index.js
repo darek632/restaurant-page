@@ -23,21 +23,25 @@ header.addEventListener( "click", (event) => {
 
 
 
-    target.style.background = '#D9DFC6';
+   
 
     switch (target.id) { 
         case 'home': 
             sampleHomePage();
+            target.style.background = '#D9DFC6';
         
         break;
         case 'menu': 
             createMenu();
+            target.style.background = '#D9DFC6';
         break;
         case 'about': 
             aboutPage();
+            target.style.background = '#D9DFC6';
         break;
         case 'contact': 
             basicContact();
+            target.style.background = '#D9DFC6';
         break;
 
     }
